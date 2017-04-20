@@ -1,6 +1,6 @@
 <?php
 
-require __DIR__.'/vendor/autoload.php';
+require __DIR__.'../vendor/autoload.php';
 
 class MyGuestbookTest extends PHPUnit_Extensions_Database_TestCase
 {

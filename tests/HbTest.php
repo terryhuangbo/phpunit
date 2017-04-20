@@ -1,6 +1,6 @@
 <?php
 
-require __DIR__.'/vendor/autoload.php';
+require __DIR__.'../vendor/autoload.php';
 
 class MyApp_DbUnit_ArrayDataSet extends PHPUnit_Extensions_Database_DataSet_AbstractDataSet
 {
