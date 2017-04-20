@@ -10,6 +10,7 @@
         }
     ],
     "require-dev": {
-        "phpunit/dbunit": "^2.0"
+        "phpunit/dbunit": "^2.0",
+		"mikey179/vfsStream": "~1"
     }
 }
