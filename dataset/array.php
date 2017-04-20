@@ -1,0 +1,18 @@
+<?php
+
+return [
+    'guestbook' => [
+        [
+            'id' => 1,
+            'content' => 'Hello buddy!',
+            'user' => 'joe',
+            'created' => '2010-04-24 17:15:23',
+        ],
+        [
+            'id' => 2,
+            'content' => 'I like it!',
+            'user' => null,
+            'created' => '2010-04-26 12:14:20',
+        ],
+    ],
+];
