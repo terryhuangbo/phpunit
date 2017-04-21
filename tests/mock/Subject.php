@@ -1,5 +1,7 @@
 <?php
 
+namespace Tests\Mock;
+
 class Subject
 {
     protected $observers = [];

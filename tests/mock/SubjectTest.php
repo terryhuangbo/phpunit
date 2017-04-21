@@ -1,9 +1,9 @@
 <?php
 
+namespace Tests\Mock;
+
 use PHPUnit\Framework\TestCase;
 
-require 'Observer.php';
-require 'Subject.php';
 
 class SubjectTest extends TestCase
 {
@@ -18,8 +18,8 @@ class SubjectTest extends TestCase
         // Set up the expectation for the update() method
         // to be called only once and with the string 'something'
         // as its parameter.
-        $observer->expects($this->once())   //这里指调用次数，还可为never,atLeastOnce,exactly,at
-            ->method('update')
+        $observer->expects($this->once())//这里指调用次数，还可为never,atLeastOnce,exactly,at
+        ->method('update')
             ->with($this->equalTo('something'));
 
         // Create a Subject object and attach the mocked
@@ -41,8 +41,8 @@ class SubjectTest extends TestCase
             ->setMethods(['reportError'])
             ->getMock();
 
-        $observer->expects($this->once())     //定义reportError的行为
-            ->method('reportError')
+        $observer->expects($this->once())//定义reportError的行为
+        ->method('reportError')
             ->with(
                 $this->greaterThan(0),     //第一个参数大于0
                 $this->stringContains('Something'), //第二个参数包含'Something'

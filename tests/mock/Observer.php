@@ -1,5 +1,7 @@
 <?php
 
+namespace Tests\Mock;
+
 class Observer
 {
     public function update($argument)
