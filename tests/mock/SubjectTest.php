@@ -10,7 +10,7 @@ class SubjectTest extends TestCase
     public function testObserversAreUpdated()
     {
         // Create a mock for the Observer class,
-        // only mock the update() method.
+        // only mock the update()  method.
         $observer = $this->getMockBuilder(Observer::class)
             ->setMethods(['update'])
             ->getMock();
