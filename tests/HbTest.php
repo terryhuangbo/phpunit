@@ -10,7 +10,7 @@ class MyApp_DbUnit_ArrayDataSet extends PHPUnit_Extensions_Database_DataSet_Abst
     protected $tables = [];
 
     /**
-     * @param array $data
+     * @param array  $data
      */
     public function __construct(array $data)
     {
